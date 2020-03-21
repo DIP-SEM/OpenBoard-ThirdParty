@@ -34,3 +34,7 @@ linux-g++-32 {
 linux-g++-64 {
    LIBS += -lz
 }
+freebsd-clang {
+   LIBS += -lz
+}
+

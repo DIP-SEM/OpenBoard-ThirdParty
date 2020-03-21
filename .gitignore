@@ -9,6 +9,7 @@ quazip/Makefile*
 quazip/debug
 quazip/lib
 quazip/objects
+quazip/release
 
 xpdf/Makefile*
 xpdf/lib
@@ -19,6 +20,6 @@ xpdf/xpdf-3.04/config.status
 xpdf/xpdf-3.04/aconf.h
 xpdf/xpdf-3.04/*/Makefile
 
-
+*.stash
 
 *.swp

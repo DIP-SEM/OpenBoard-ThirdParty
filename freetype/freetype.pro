@@ -16,6 +16,10 @@ unix {
         CONFIG += create_prl
         SUB_LIB = "linux"
     }
+    freebsd-clang {
+	CONFIG += create_prl
+	SUB_LIB = "freebsd"
+    }
 }
 macx {
     SUB_LIB = "macx"
